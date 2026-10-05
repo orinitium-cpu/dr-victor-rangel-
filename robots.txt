@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://drvictorrangel.com/sitemap.xml
