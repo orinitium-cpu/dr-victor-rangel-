@@ -16,3 +16,13 @@ section{opacity:.01;transform:translateY(18px);transition:opacity .75s ease,tran
  .editorial-grid{grid-template-columns:1fr 1fr;min-height:480px}
  .editorial-grid img,.editorial-grid img+img{display:block;min-height:480px}
 }
+
+/* Treatment catalog */
+.catalog-back{font-size:9px;letter-spacing:.15em;margin-left:auto}.catalog{background:#f6f3ed}.catalog-intro{padding:9vw 6vw 6vw;max-width:1100px}.catalog-intro h1{font-size:clamp(62px,9vw,145px);margin:30px 0}.catalog-intro p{max-width:650px;font-size:17px;line-height:1.7}.treatment-detail{opacity:1;transform:none;display:grid;grid-template-columns:100px 1fr;gap:3vw;padding:7vw 6vw;border-top:1px solid var(--ink)}.detail-no{font-family:'Italiana';font-size:42px;color:#aaa}.treatment-detail>div{max-width:1050px}.eyebrow{font-size:9px;letter-spacing:.2em;color:#777}.treatment-detail h2{font-size:clamp(52px,7vw,105px);margin:20px 0 35px}.treatment-detail>div>p:not(.eyebrow):not(.detail-note){max-width:750px;font-size:18px;line-height:1.75}.treatment-detail h3{font-size:9px;letter-spacing:.18em;margin:55px 0 20px}.chips{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--line)}.chips span{padding:18px 12px 18px 0;border-bottom:1px solid var(--line);font-family:'Italiana';font-size:21px}.chips span:nth-child(odd){border-right:1px solid var(--line)}.chips span:nth-child(even){padding-left:22px}.detail-note{max-width:760px;margin-top:32px;color:#666;font-size:12px;line-height:1.7}.catalog-cta{opacity:1;transform:none;background:#090909;color:#fff;padding:8vw 6vw}.catalog-cta p{font-size:9px;letter-spacing:.18em;color:#aaa}.catalog-cta h2{font-size:clamp(50px,7vw,100px)}.catalog-cta a{display:inline-block;margin-top:20px;border-bottom:1px solid var(--champ);padding-bottom:8px;color:#d6b77f;font-size:11px;letter-spacing:.14em}
+@media(max-width:900px){
+ .hero-img{object-position:42% center}
+ .catalog-back{display:none}.catalog-intro{padding:70px 24px 50px}.catalog-intro h1{font-size:16vw}
+ .treatment-detail{grid-template-columns:1fr;padding:65px 24px;gap:15px}.detail-no{font-size:28px}.treatment-detail h2{font-size:13vw}
+ .chips{grid-template-columns:1fr}.chips span,.chips span:nth-child(even),.chips span:nth-child(odd){padding:16px 0;border-right:0}
+ .catalog-cta{padding:75px 24px}
+}
