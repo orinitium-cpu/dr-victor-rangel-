@@ -26,3 +26,5 @@ section{opacity:.01;transform:translateY(18px);transition:opacity .75s ease,tran
  .chips{grid-template-columns:1fr}.chips span,.chips span:nth-child(even),.chips span:nth-child(odd){padding:16px 0;border-right:0}
  .catalog-cta{padding:75px 24px}
 }
+/* Mirror original hero photograph only; keep image, typography and layout unchanged. */
+.hero-img{transform:scaleX(-1)}
